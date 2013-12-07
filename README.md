@@ -45,28 +45,28 @@ Once you install Package Control, restart ST2 and bring up the Command Palette (
 **With Git:** Clone the repository in your Sublime Text "Packages" directory:
 
     git clone https://github.com/SublimeLinter/SublimeLinter.git
-
+    git checkout sublime-text-3
 
 The "Packages" directory is located at:
 
 * OS X:
 
-        ~/Library/Application Support/Sublime Text 2/Packages/
+        ~/Library/Application Support/Sublime Text 3/Packages/
 
 * Linux:
 
-        ~/.config/sublime-text-2/Packages/
+        ~/.config/sublime-text-3/Packages/
 
 * Windows:
 
-        %APPDATA%/Sublime Text 2/Packages/
+        %APPDATA%/Sublime Text 3/Packages/
 
 ### JavaScript-based linters
 If you plan to edit files that use a JavaScript-based linter (JavaScript, CSS), your system
 must have a JavaScript engine installed. Mac OS X comes with a preinstalled JavaScript engine called
 JavaScriptCore, which is used if Node.js is not installed. On Windows, you **must** install the
 JavaScript engine Node.js, which can be downloaded from [the Node.js site](http://nodejs.org/#download).
-
+            
 On Mac OS X, you **must** install Node.js if you plan to edit JavaScript or CSS files that
 use non-ASCII characters in strings or comments, because JavaScriptCore is not Unicode-aware.
 
